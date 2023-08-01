@@ -1,0 +1,39 @@
+1. use backtick `  `  to use $ sign in a string or Js code.
+2. in banner.js their is a use of caraosal npm package for sliding image which i do not get it 
+3. Divider is a good thing in material ui
+4. &nbsp; is used for spacing
+5.  use router-dom with these code
+        Code: index.js
+
+import {BrowserRouter as Router}  from "react-router-dom";
+
+ReactDOM.render(
+  <React.StrictMode>
+  <Router>
+    <App />
+    </Router>
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+
+//in app.js
+
+function App() {
+  return (
+  <>
+    <Routes>
+    <Route path ="/" element={<Main />} />
+    <Route path ="gigs" element={<Gigs />} />
+    </Routes>
+</>
+  );
+}
+
+
+
+
+
+
+use <NavLink>  to creater sign in buttons or like this type of uses.it don't reload the page just likwe nextJs
+
+. always use fontWeight like things in camelcase in js vvvvimp
